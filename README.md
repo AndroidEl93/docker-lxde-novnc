@@ -15,7 +15,7 @@ cd docker-lxde-novnc
 
 docker build --build-arg VNC_PASSWORD=yourpassword -t lxde .
 
-docker run -d -p 3000:6080 -v /home/folder:/home/folder --memory=800m --cpus=1 novnc
+docker run -d -p 3000:6080 -v /home/folder:/home/folder --memory=800m --cpus=1 lxde
 ```
 
 ## How to connect
